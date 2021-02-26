@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="FunctionalTC.positiveTC">
+        <methods>
+          <include name="tc2"/>
+          <include name="startReport"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="getResult"/>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- FunctionalTC.positiveTC -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
